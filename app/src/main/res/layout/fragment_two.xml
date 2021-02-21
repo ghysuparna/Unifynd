@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.FragmentTwo">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Second Tab"
+        android:textAllCaps="false"
+        android:background="#8DF4CB"
+        android:layout_gravity="top"
+        android:singleLine="true"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:id="@+id/tab"
+        android:padding="10dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tab"
+        android:background="#DAFAF1"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/hoz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+
+        </View>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/grid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Hip Hop"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:layout_gravity="top"-->
+<!--            android:singleLine="true"-->
+<!--            android:textColor="#000"-->
+<!--            android:textSize="20dp"-->
+<!--            android:padding="10dp"-->
+<!--            android:textStyle="normal" />-->
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Pop"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:layout_gravity="top"-->
+<!--            android:singleLine="true"-->
+<!--            android:textColor="#000"-->
+<!--            android:textSize="20dp"-->
+<!--            android:padding="10dp"-->
+<!--            android:textStyle="normal" />-->
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="R &amp;B"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:layout_gravity="top"-->
+<!--            android:singleLine="true"-->
+<!--            android:textColor="#000"-->
+<!--            android:textSize="20dp"-->
+<!--            android:padding="10dp"-->
+<!--            android:textStyle="normal" />-->
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+    </LinearLayout>
+
+
+</LinearLayout>

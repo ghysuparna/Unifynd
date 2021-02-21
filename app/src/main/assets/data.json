@@ -1,0 +1,52 @@
+{
+    "data" : [
+        {
+            "title" : "Bharatnatyam",
+            "subTitle" : "Tamil Nadu"
+        },
+        {
+            "title" : "Kathak",
+            "subTitle" : "Uttar Pradesh"
+        },
+        {
+            "title" : "Kathakali",
+            "subTitle" : "Kerala"
+    
+        },
+        {
+            "title" : "Manipuri",
+            "subTitle" : "Manipur"
+    
+        },
+        {
+            "title" : "Kuchipudi",
+            "subTitle" : "Andhra Pradesh"
+    
+        },
+        {
+            "title" : "Odissi",
+            "subTitle" : "Odisha"
+    
+        },
+         {
+            "title" : "Bhangra",
+            "subTitle" : "Punjab"
+    
+        },
+        {
+            "title" : "Garba",
+            "subTitle" : "Gujarat"
+    
+        },
+        {
+            "title" : "Rouf",
+            "subTitle" : "Kashmir"
+    
+        },
+        {
+            "title" : "Ghoomar",
+            "subTitle" : "Rajasthan"
+    
+        }
+    ]
+}

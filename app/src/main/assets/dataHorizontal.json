@@ -1,0 +1,21 @@
+{
+    "data" : [
+        {
+            "title" : "Hackers",
+            "subTitle" : "Si-fi"
+        },
+        {
+            "title" : "Avengers",
+            "subTitle" : "Action"
+        },
+        {
+            "title" : "Cococo",
+            "subTitle" : "Comedy"
+        },
+        {
+            "title" : "Shoree",
+            "subTitle" : "Drama"
+
+        }
+    ]
+}
